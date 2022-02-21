@@ -1,0 +1,22 @@
+.primary_navigation {
+  --gap: 8rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.primary-navigation a {
+  text-decoration: none;
+}
+
+.underline_indicators > * {
+  padding: 1rem 0;
+}
+.underline_indicators > *:hover,
+.underline_indicators > *:focus {
+  border-bottom: 0.2rem solid hsl(var(--clr-white) / 0.5);
+}
+
+.active {
+  border-bottom: 0.2rem solid hsl(var(--clr-white) / 1);
+}
