@@ -1,0 +1,14 @@
+.tabButton {
+  padding: 1rem 0;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+.tabButton:hover,
+.tabButton:focus {
+  border-bottom: 0.2rem solid hsl(var(--clr-white) / 0.5);
+}
+
+.active {
+  border-bottom: 0.2rem solid hsl(var(--clr-white) / 1);
+}

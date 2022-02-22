@@ -1,5 +1,6 @@
 import React from "react";
 import LargeButton from "./components/theme/largeButton/LargeButton";
+import Tab from "./components/theme/tab/Tab";
 
 const Theme = () => {
   return (
@@ -9,6 +10,9 @@ const Theme = () => {
       </div>
       <div className="bd-dark" style={{ padding: "1rem" }}>
         <LargeButton />
+      </div>
+      <div className="bd-dark" style={{ padding: "1rem", display: "flex" }}>
+        <Tab />
       </div>
     </div>
   );
