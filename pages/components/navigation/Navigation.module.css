@@ -19,4 +19,5 @@
 
 .active {
   border-bottom: 0.2rem solid hsl(var(--clr-white) / 1);
+  color: hsl(var(--clr-white) / 1);
 }

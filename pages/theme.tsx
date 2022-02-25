@@ -1,5 +1,7 @@
 import React from "react";
+import Dot from "./components/theme/dot/Dot";
 import LargeButton from "./components/theme/largeButton/LargeButton";
+import Number from "./components/theme/number/Number";
 import Tab from "./components/theme/tab/Tab";
 
 const Theme = () => {
@@ -13,6 +15,12 @@ const Theme = () => {
       </div>
       <div className="bd-dark" style={{ padding: "1rem", display: "flex" }}>
         <Tab />
+      </div>
+      <div className="bd-dark" style={{ padding: "1rem", display: "flex" }}>
+        <Dot />
+      </div>
+      <div className="bd-dark" style={{ padding: "1rem", display: "flex" }}>
+        <Number />
       </div>
     </div>
   );

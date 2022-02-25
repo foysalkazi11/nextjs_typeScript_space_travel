@@ -1,0 +1,18 @@
+.dot_indicator {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5re;
+  background-color: hsl(var(--clr-white) / 0.25);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.dot_indicator:hover,
+.dot_indicator:focus {
+  background-color: hsl(var(--clr-white) / 0.5);
+}
+
+.active {
+  background-color: hsl(var(--clr-white) / 1);
+}

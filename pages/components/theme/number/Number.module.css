@@ -1,0 +1,23 @@
+.number_indicator {
+  cursor: pointer;
+  border: 1px solid hsl(var(--clr-white) / 0.5);
+  outline: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: hsl(var(--clr-white) / 1);
+  transition: all 300ms linear;
+}
+.number_indicator:hover,
+.number_indicator:focus {
+  background-color: transparent;
+  border: 1px solid hsl(var(--clr-white) / 1);
+  color: hsl(var(--clr-white) / 1);
+}
+
+.active {
+  background-color: hsl(var(--clr-white) / 1);
+  border: none;
+  color: hsl(var(--clr-dark) / 1);
+}
