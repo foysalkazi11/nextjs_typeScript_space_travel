@@ -4,6 +4,10 @@
   background-image: url("/assets/home/background-home-mobile.jpg");
 }
 
+.home .dis {
+  max-width: 480px;
+}
+
 @media (min-width: 560px) {
   .home {
     background-position: center center;

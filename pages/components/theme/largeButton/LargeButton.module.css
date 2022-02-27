@@ -8,6 +8,8 @@
   height: 274px;
   border-radius: 50%;
   z-index: 1;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .large_button::after {
